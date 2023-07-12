@@ -1,0 +1,142 @@
+html {
+  color: #181823;
+}
+
+body {
+  background-color: #eff5f5;
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: #fc7300;
+  text-align: center;
+}
+.header .cont-nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+.header .navegador {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+}
+.header .lista {
+  padding-right: 100px;
+  font-weight: 600;
+}
+
+main {
+  margin-top: -70px;
+  width: 100%;
+  height: 600px;
+}
+main .principal {
+  background-image: url(/img/cdc-GDokEYnOfnE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  justify-content: center;
+}
+main .principal p {
+  color: #eff5f5;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+main .principal h1 {
+  color: #eff5f5;
+  padding-top: 100px;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+}
+main .sec1, main .sec2, main .sec3, main .sec4 {
+  border: #fc7300 solid 3px;
+  width: 100%;
+  height: 600px;
+}
+main .sec1 h1 {
+  padding-top: 20px;
+  margin-left: 30px;
+  text-align: justify;
+  justify-content: center;
+  font-size: 50px;
+}
+main .sec1 p {
+  text-align: center;
+  justify-content: center;
+  padding-left: 200px;
+  font-size: 30px;
+  font-weight: 800;
+}
+main .sec1 .div-list-qs {
+  display: flex;
+}
+main .sec1 .list-qs {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .sec2 {
+  height: 700px;
+}
+main .sec2 h1 {
+  padding-top: 20px;
+  margin-left: 30px;
+  text-align: justify;
+  justify-content: center;
+  font-size: 50px;
+}
+main .sec2 p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 800;
+}
+main .sec2 img {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+main .sec2 .div-list-pe {
+  display: flex;
+}
+main .sec2 .listt-pe {
+  width: 1000%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main footer {
+  height: 200px;
+  width: 100%;
+  background-color: #00425a;
+  color: #eff5f5;
+}
+main footer .cont-footer {
+  display: flex;
+  justify-content: space-around;
+}
+main footer .lista-footer {
+  display: flex;
+}
+main footer .foot {
+  padding-right: 300px;
+}/*# sourceMappingURL=styles.css.map */
