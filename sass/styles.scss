@@ -17,6 +17,7 @@ ul{
 }
 
 .header{
+    // hacer el fixed para tener la navbar en movimiento Al div de quienes somos le tenes que poner un margin o padding
    
     height: 100px;
     width: 100%;
@@ -33,17 +34,17 @@ ul{
         padding-left: 100px;
         }
     .navegador{
+        
        font-size: 20px;
        font-weight: 400;
        display: flex;
     }
     
-    .lista{
+    .lista { 
         padding-right: 100px;
-        font-weight: 600;
-    }
-
-}
+        font-weight: 600;}
+    } 
+       
 
 main{
     margin-top: -70px;
@@ -103,12 +104,13 @@ main{
         .div-list-qs{
             display: flex;
         }
-        .list-qs{
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
+        .lista-qs{
+         width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
         }
+        
     }
     .sec2{
         height: 700px;
@@ -140,7 +142,7 @@ main{
             .div-list-pe{
                 display: flex;
             }
-            .listt-pe{
+            .lista-pe{
                 width: 1000%;
                 display: flex;
                 align-items: center;
