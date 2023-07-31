@@ -1,19 +1,27 @@
-body {
-  background-color: #fc7300;
+html {
+  margin: 0%;
 }
 
-.form {
+main {
+  background-image: url(/img/fondo-formulario.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+  text-align: center;
+  justify-content: center;
+}
+main .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 350px;
-  background-color: #ffffff;
+  background-color: #ffffff transparent;
   padding: 20px;
   border-radius: 20px;
   position: relative;
 }
-
-.title {
+main .title {
   font-size: 28px;
   color: royalblue;
   font-weight: 600;
@@ -23,8 +31,7 @@ body {
   align-items: center;
   padding-left: 30px;
 }
-
-.title::before, .title::after {
+main .title::before, main .title::after {
   position: absolute;
   content: "";
   height: 16px;
@@ -33,56 +40,46 @@ body {
   left: 0px;
   background-color: royalblue;
 }
-
-.title::before {
+main .title::before {
   width: 18px;
   height: 18px;
   background-color: royalblue;
 }
-
-.title::after {
+main .title::after {
   width: 18px;
   height: 18px;
   animation: pulse 1s linear infinite;
 }
-
-.message, .signin {
+main .message, main .signin {
   color: rgba(88, 87, 87, 0.822);
   font-size: 14px;
 }
-
-.signin {
+main .signin {
   text-align: center;
 }
-
-.signin a {
+main .signin a {
   color: royalblue;
 }
-
-.signin a:hover {
+main .signin a:hover {
   -webkit-text-decoration: underline royalblue;
           text-decoration: underline royalblue;
 }
-
-.flex {
+main .flex {
   display: flex;
   width: 100%;
   gap: 6px;
 }
-
-.form label {
+main .form label {
   position: relative;
 }
-
-.form label .input {
+main .form label .input {
   width: 100%;
   padding: 10px 10px 20px 10px;
   outline: 0;
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
 }
-
-.form label .input + span {
+main .form label .input + span {
   position: absolute;
   left: 10px;
   top: 15px;
@@ -91,28 +88,23 @@ body {
   cursor: text;
   transition: 0.3s ease;
 }
-
-.form label .input:-moz-placeholder-shown + span {
+main .form label .input:-moz-placeholder-shown + span {
   top: 15px;
   font-size: 0.9em;
 }
-
-.form label .input:placeholder-shown + span {
+main .form label .input:placeholder-shown + span {
   top: 15px;
   font-size: 0.9em;
 }
-
-.form label .input:focus + span, .form label .input:valid + span {
+main .form label .input:focus + span, main .form label .input:valid + span {
   top: 30px;
   font-size: 0.7em;
   font-weight: 600;
 }
-
-.form label .input:valid + span {
+main .form label .input:valid + span {
   color: green;
 }
-
-.submit {
+main .submit {
   border: none;
   outline: none;
   background-color: royalblue;
@@ -122,8 +114,7 @@ body {
   font-size: 16px;
   transform: 0.3s ease;
 }
-
-.submit:hover {
+main .submit:hover {
   background-color: rgb(56, 90, 194);
 }
 
